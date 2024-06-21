@@ -12,9 +12,6 @@
 
 ```python
 def check_reflexive(A, R):
-    """
-    R이 A에 대해 반사적인지 확인합니다.
-    """
     for a in A:
         if (a, a) not in R:
             return False
